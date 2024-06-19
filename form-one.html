@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-one</title>
+    <link rel="stylesheet" href="styles-navbar.css">
+
+    </head>
+
+
+<body>
+   
+    <header>
+        <h2>SprachLern</h2>
+        <nav class="navbar">
+            <a href="index-home.html">Home</a>
+            <a href="index-über-uns.html">Über uns</a>
+            <a href="form-one.html">Kurse</a>
+            <a href="anmeldungen.html">Anmeldung</a>
+        </nav>
+</header>
+
+   
+   
+         <h2>Anmeldung zum Sprachkurs</h2>
+   
+<form action="submit" method="POST" id="form-one">
+    
+   <div class="box-form-one">
+     <div>
+        <label for="language">Kurs Sprache:</label>
+        <select id="language" name="language" required>
+            <option value="deutsch">Deutsch</option>
+            <option value="thai">Thai</option>
+            <option value="mandarin">Mandarin</option>
+            <option value="arabisch">Arabisch</option>
+            <option value="spanisch">Spanisch</option>
+            <option value="englisch">Englisch</option>
+        </select>
+     </div>
+
+     <div>
+        <label for="level">Sprachniveau:</label>
+        <select name="level" id="level" required>
+            <option value="anfänger">Anfänger</option>
+            <option value="mittelstufe">Mittelstufe</option>
+            <option value="fortgeschritten">Fortgeschritten</option>
+        </select>  
+      </div>
+
+    
+        <label for="start-daten">Kursstart Datum:</label>
+        <select name="start-daten" id="start-daten" required>
+            <option value="2024-03-01">1. März - 31. August</option>
+            <option value="2024-09-01">1. Septemper - 29. Februar</option>
+
+        </select>
+        
+        <div>
+            <label for="day-of-week">Wochentag:</label>
+            <select name="day-of-week" id="day-of-week" required>
+                <option value="vormittag">Montag - Freitag 8.00 - 12.00</option>
+                <option value="nachmittag">Montag - Freitag 13.00 -17.00</option>
+            </select>
+        </div>
+        
+    
+    </div> 
+    
+    <div class="button-form-one">
+        <button type="submit">Absenden</button> 
+    </div>
+
+</form>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
+
