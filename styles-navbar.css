@@ -17,9 +17,6 @@ header {
     justify-content: space-around; 
     align-items: center; 
     height: 50px; 
-  
-   
-   
 }
 
 .navbar a {
@@ -44,10 +41,7 @@ footer img{
     max-height: 30px;
     padding-right: 30px;
     
-    
 }
-
-
 
 .box{
     padding: 50px;
@@ -58,6 +52,8 @@ h2{
     justify-content: center;
     padding: 25px;
     padding-top: 50px;
+    
+    
 
 }
 
@@ -67,6 +63,7 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
 }
 
 .button-form-one{
@@ -74,6 +71,10 @@ h2{
     justify-content: center;
     padding-top: 20px;
     
+}
+.b {
+    display: flex;
+    flex-direction: column;
 }
 
 
